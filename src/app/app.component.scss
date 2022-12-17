@@ -1,0 +1,40 @@
+header {
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+
+  h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+.list-item {
+  display: flex;
+  border-bottom: 1px solid #cfcfcf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover,
+  &:focus {
+    background: #f7f7f7;
+  }
+}
+
+.item-checkbox {
+  cursor: pointer;
+
+  +label {
+    cursor: pointer;
+  }
+
+  &:checked+label {
+    text-decoration: line-through;
+    color: rgba(34, 34, 34, 0.4);
+  }
+}

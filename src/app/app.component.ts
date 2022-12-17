@@ -6,5 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'to-do';
+
+  quote = 'Some Quote!';
+
+  today?: Date;
+
+  items = [
+    "item 1",
+    "item 2",
+    "item 5",
+    "item 4",
+  ]
+
+  constructor() {
+    this.today = new Date();
+  }
+
+  editItem() {
+
+  }
+
+  deleteItem() {
+
+  }
+
 }
