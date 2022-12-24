@@ -7,27 +7,27 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  quote = 'Some Quote!';
+  // quote = 'Some Quote!';
 
-  today?: Date;
+  // today?: Date;
 
-  items = [
-    "item 1",
-    "item 2",
-    "item 5",
-    "item 4",
-  ]
+  // items = [
+  //   "item 1",
+  //   "item 2",
+  //   "item 5",
+  //   "item 4",
+  // ]
 
-  constructor() {
-    this.today = new Date();
-  }
+  // constructor() {
+  //   this.today = new Date();
+  // }
 
-  editItem() {
+  // editItem() {
 
-  }
+  // }
 
-  deleteItem() {
+  // deleteItem() {
 
-  }
+  // }
 
 }
